@@ -22,13 +22,13 @@
 
 - name: install kubelet
   apt:
-    name: kubelet=1.15.2-00
+    name: kubelet=1.18.0
     state: present
     update_cache: true
 
 - name: install kubeadm
   apt:
-    name: kubeadm=1.15.2-00
+    name: kubeadm=1.18.0
     state: present
 
 - name: enable service docker
